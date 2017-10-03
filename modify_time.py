@@ -2,7 +2,7 @@ import numpy as np
 import sys
 import re
 import itertools
-
+#generate time file for paraview, default is nondimensional time#
 myfile = sys.argv[1]
 time_file = sys.argv[2]
 out_file = open('output_file.xdmf', 'w')
